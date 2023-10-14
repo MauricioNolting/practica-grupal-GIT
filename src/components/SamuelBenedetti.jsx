@@ -1,7 +1,7 @@
 const SamuelBenedetti = () => {
   return (
     <article
-      className=" ml-3 max-w-[250px] rounded-2xl overflow-hidden  flex flex-col  bg-[#14253D] text-center
+      className="max-w-[250px]  bg-[#14253D] rounded-xl mx-auto 
     "
     >
       <header className="p-5">
@@ -12,7 +12,7 @@ const SamuelBenedetti = () => {
         />
       </header>
 
-      <h3 className="text-[1.4rem] px-5 font-semibold pb-3 hover:text-[#00FFF7] transition-colors">
+      <h3 className="text-[1.4rem] px-5 font-semibold pb-3 hover:text-[#00FFF7] transition-colors cursor-pointer">
         Samuel Benedetti
       </h3>
       <ul className="grid grid-cols-2 px-5 gap-2 pb-4">
